@@ -31,7 +31,7 @@ There are two staging tables, one for each type of data on S3. The staging table
 
 The project was built based on the star architecture. There are 4 dimension tables: **users** **, ** **songs**, **artistis ** and **time **, the 4 tables refer to the entities of our business model, there is also a fact table called **songplays ** that allows a performatic queries, without the use of JOINs. **Songplays** table contains the data of a specific song played, its user and artist.
 
-![schema](.\schema.png)
+![schema](schema.png)
 
 
 
